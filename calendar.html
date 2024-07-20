@@ -3,21 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyBuddy Calendar</title>
+    <title>CramMates Calendar</title>
     <link href='https://unpkg.com/fullcalendar@5.10.2/main.min.css' rel='stylesheet' />
     <style>
         /* CSS goes here */
-        @import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
+        @font-face {
+            font-family: 'FK Display';
+            src: url('fonts/FKDisplay-RegularAlt.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
 
+        @font-face {
+            font-family: 'FK Display';
+            src: url('fonts/FKDisplay-RegularAlt.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'FK Display', Arial, sans-serif;
+            background-color: #F1F0E8;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #007bff;
+            background-color: #418dc7;
             color: white;
             padding: 15px 20px;
             display: flex;
@@ -133,7 +144,7 @@
 </head>
 <body>
     <header>
-        <h1>StudyBuddy</h1>
+        <h1>CramMates</h1>
         <nav>
             <ul id="nav-links">
                 <li><a href="index.html">Home</a></li>
@@ -150,7 +161,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 StudyBuddy. All rights reserved.</p>
+        <p>&copy; 2024 CramMates. All rights reserved.</p>
     </footer>
 
     <!-- Add Session Modal -->
