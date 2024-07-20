@@ -6,17 +6,29 @@
     <title>Sign Up - CramMates</title>
     <style>
         /* CSS goes here */
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+        @font-face {
+            font-family: 'FK Display';
+            src: url('fonts/FKDisplay-RegularAlt.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'FK Display';
+            src: url('fonts/FKDisplay-RegularAlt.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
 
         body {
-            font-family: 'Poppins', Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'FK Display', Arial, sans-serif;
+            background-color: #F1F0E8;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #007bff;
+            background-color: #418dc7;
             color: white;
             padding: 15px 20px;
             display: flex;
@@ -44,12 +56,12 @@
         }
 
         section {
-            padding: 20px;
+            padding: 120px;
             text-align: center;
         }
 
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 40px;
         }
 
         input, button, textarea {
@@ -62,18 +74,18 @@
         }
 
         button {
-            background-color: #007bff;
+            background-color: #418dc7;
             color: white;
             border: none;
             cursor: pointer;
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: #ADC4CE;
         }
 
         footer {
-            background-color: #333;
+            background-color: #333333;
             color: white;
             text-align: center;
             padding: 10px 0;
@@ -92,7 +104,6 @@
             </ul>
         </nav>
     </header>
-
     <section id="signup">
         <h2>Sign Up</h2>
         <form id="signup-form">
@@ -114,7 +125,6 @@
             <button type="submit" class="btn">Sign Up</button>
         </form>
     </section>
-
     <footer>
         <p>&copy; 2024 CramMates. All rights reserved.</p>
     </footer>
